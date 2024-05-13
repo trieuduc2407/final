@@ -1,0 +1,94 @@
+/*
+c1: f3efe0 BE
+c2: 434242 XAM
+c3: 222222 XAM DAM
+c4: 22a39f XANH NGOC
+*/
+
+* {
+    font-family: Arial;
+
+}
+
+header {
+    background-color: #f3efe0;
+    padding-bottom: 2.5%;
+}
+
+header > nav > ul {
+    list-style-type: none;
+    padding: 2.5% 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    display: inline-block;
+    font-weight: bolder;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.feature {
+    margin: 2.5% 0;
+    width: 100%;
+    height: 200px;
+    background-color: #22a39f;
+    border: 2px solid #434242;
+}
+
+.feature > p, .feature > h1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.feature:hover {
+    background-color: #f3efe0;
+    border: 2px solid #22a39f;
+    cursor: pointer;
+}
+
+.feature:hover > p, .feature:hover > h1 {
+    color: #434242;
+    font-style: italic;
+}
+
+#wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#wrap .item {
+    flex-basis: 50%;
+    margin-bottom: 2.5%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.info {
+    text-align: center;
+    margin-right: 2.5%;
+}
+
+footer {
+    background-color: #f3efe0;
+    display: flex;
+    justify-content: space-around;
+}

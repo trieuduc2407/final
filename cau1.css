@@ -1,0 +1,70 @@
+/*
+c1: f3efe0 BE
+c2: 434242 XAM
+c3: 222222 XAM DAM
+c4: 22a39f XANH NGOC
+*/
+
+* {
+    margin: 0;
+    font-family: Arial;
+
+}
+
+header > nav > ul {
+    list-style-type: none;
+    background-color: #f3efe0;
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    display: inline-block;
+    font-weight: bolder;
+}
+
+section {
+    margin-top: 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+tr {
+    text-align: center;
+}
+
+th, td {
+    border-left: 1px solid #222222;
+}
+
+th:first-child, td:first-child {
+    border-left: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    text-align: center;
+    margin-right: 2.5%;
+}
